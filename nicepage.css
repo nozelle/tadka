@@ -41823,19 +41823,15 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
- .u-header {
-  background-image: none;
-}
-
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 112px;
 }
 
 .u-header .u-image-1 {
   width: 334px;
   height: 90px;
   filter: brightness(0);
-  margin: 22px auto 26px;
+  margin: 22px auto 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -41847,18 +41843,9 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 334px;
     height: 90px;
   }
-
-  .u-header .u-logo-image-1 {
-    max-width: 64px;
-    max-height: 64px;
-  }
 }
 
-@media (max-width: 767px) {
-  .u-header .u-image-1 {
-    width: auto;
-  }
-}
+
 
  .u-footer {
   background-image: none;
